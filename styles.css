@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(127, 178, 173);
+}
+
+h1 {
+    font-weight: 700;
+    color: #fefefe;
+}
+
+.carousel-item img {
+    max-height: 80vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hint p {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.button-51 {
+    background-color: #1f2937;
+    border-radius: 999px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 0 1px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-51:active,
+.button-51:hover {
+    background-color: #111827;
+}
